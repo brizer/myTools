@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta charset="utf-8"/>
+	<title>布局</title>
+<style>
+  
+.slide1{
+    background-color: rgb(27, 188, 155);
+}
+.slide2{
+    background-color: rgb(255, 153, 0);
+}
+.slide3{
+    background-color: rgb(123, 170, 190);
+}
+</style> 
+   
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.9.0/jquery.js"></script> 
+<script type="text/javascript" src="./js/myFullPage.js"></script> 
+</head>
+<body>
+<div class="container">
+    <div class="scrollContainer">
+        <div class="slide slide1">1
+        </div>
+        <div class="slide slide2">2
+        </div>
+        <div class="slide slide3">3
+        </div>
+    </div>
+</div>
+<script>  
+
+/*调用myFullPage*/
+$('.container').myFullPage();
+</script> 
+</body>
+</html> 

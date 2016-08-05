@@ -1,0 +1,1 @@
+myfullPage 			jquery插件，整屏滚动[demo](http://brizer.github.io/demo/fullpage.html)
